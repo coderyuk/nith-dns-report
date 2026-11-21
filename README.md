@@ -50,9 +50,5 @@ If you need any clarification regarding these findings, assistance in implementi
 
 - **Reporter:** `Yashraj Saini`
 - **Email:** `25dec027@nith.ac.in`
-- **GitHub:** `https://github.com/coderyuk`
+- **GitHub:** `github.com/coderyuk`
 - **Supervised By:** Shield Society, NIT Hamirpur (`shield.nith.ac.in`)
-
-- **Reporter:** `Yashraj Saini`
-- **Email:** `25dec027@nith.ac.in`
-- **GitHub:** `https://github.com/coderyuk`
