@@ -1,0 +1,42 @@
+
+; <<>> DiG 9.20.29-1-Debian <<>> nith.ac.in +trace
+;; global options: +cmd
+.			0	IN	NS	k.root-servers.net.
+.			0	IN	NS	l.root-servers.net.
+.			0	IN	NS	m.root-servers.net.
+.			0	IN	NS	a.root-servers.net.
+.			0	IN	NS	b.root-servers.net.
+.			0	IN	NS	c.root-servers.net.
+.			0	IN	NS	d.root-servers.net.
+.			0	IN	NS	e.root-servers.net.
+.			0	IN	NS	f.root-servers.net.
+.			0	IN	NS	g.root-servers.net.
+.			0	IN	NS	h.root-servers.net.
+.			0	IN	NS	i.root-servers.net.
+.			0	IN	NS	j.root-servers.net.
+.			0	IN	RRSIG	NS 8 0 518400 20261112170000 20261030160000 8763 . spIBtumR3hACYtEZM9UjE6tHPbFUU5SQXlyb8ZKRR9YF6DY8Yk0C7Toz G/sS8fYDsPczdsWR2kX2otx8DCqAkSq9rddixsWiH8aYQo7QXVC+OzrW d0R14rSHLMjvDSGEeZmQ6huSyfgrq5NpDqoiSZGHEirVT3qWP6UbECoN fFzSCw8Wzbaa+G1stHAOf2Jjq4ueo5bs/tc+5nyeW5aC+zX0zn0v2g8W XTSNaiGCCF5c/iZOuEmUpxlJEcDoMZGslqu+YTgbkkAlri6bvJxSbZTS uCeHpxpeUSM5KkhX9r3lDafFOXcRmW2zZHJCwKgKiwIkeYMFEXsPVuYz yQVyTQ==
+;; Received 525 bytes from 127.0.0.53#53(127.0.0.53) in 20 ms
+
+in.			172800	IN	NS	ns3.registry.in.
+in.			172800	IN	NS	ns4.registry.in.
+in.			172800	IN	NS	ns1.registry.in.
+in.			172800	IN	NS	ns2.registry.in.
+in.			86400	IN	DS	10094 13 2 5824EE9A55ED72F0D46D2C3A511F393F05EFC27E73CBD1005BEBBC73 402B6186
+in.			86400	IN	RRSIG	DS 8 1 86400 20261114170000 20261101160000 8763 . Hkl7Gfxk3KAMk29T5+i2xfizlSJPO4iiDYGf+0cZMY7hts1h2oeoqND4 zDcufgCQZgF7n6xCH8Pg857qC9uogztt2dnnorcXEx1yP9TN52icXr9P 1SRkL0LTf6jcnrn2l2UE/StdSfz/gKgfr6iim6EhjHJw6riugebOdWU8 EpoewhFkwudvI+jtu4SnISahCV3mWVr/38AlMUCeT6KaXYKV4TBpneLr jjhzg5QiEaCxArsNv/kVk2nsOV1ZlA9eh3lOT/qukKEsf1FLkh05SXm2 23DCEzoCHMZV9CRiGVs2YFNMEa4cBjWHaryHl5rIcuCU1SaLD9U9CDNS /WWUuQ==
+;; Received 631 bytes from 193.0.14.129#53(k.root-servers.net) in 20 ms
+
+nith.ac.in.		900	IN	NS	name2.nith.ac.in.
+nith.ac.in.		900	IN	NS	name.nith.ac.in.
+nith.ac.in.		900	IN	NS	name1.nith.ac.in.
+2A7AF8STCGBAKKGI81GG1GAFJ7VAES17.ac.in.	300 IN NSEC3 1 1 0 - 2NS1OVIN6LLQREBPEQD5IH2CV67F1C3D NS SOA RRSIG DNSKEY NSEC3PARAM
+2A7AF8STCGBAKKGI81GG1GAFJ7VAES17.ac.in.	300 IN RRSIG NSEC3 13 3 300 20261110005817 20261012023054 46764 ac.in. 6j87vqYNF8+d8mTWeqbnKc6D7bgL6GanJih9ybzXC0ZQrE5cFUeNQgDh k4McsJMMc9YMGohhB1JnPAt7VMpbMA==
+BNG6NA3S2670U6U318I93IU40JM51J80.ac.in.	300 IN NSEC3 1 1 0 - LFNDMA3S65R8PN6MEULOTDLFV34LNMI5 NS DS RRSIG
+BNG6NA3S2670U6U318I93IU40JM51J80.ac.in.	300 IN RRSIG NSEC3 13 3 300 20261127045217 20261030030054 46764 ac.in. ZJfp0Wn1xo7bYc/iXTsXRvoWCaa/X6pDqKuQ/XoVyaBzimc/WHhNIMRV 8rYMlX144kjXAEBQxcSnDF+XhI3NwQ==
+;; Received 535 bytes from 64.96.2.1#53(ns2.registry.in) in 56 ms
+
+nith.ac.in.		8549	IN	A	14.139.56.5
+nith.ac.in.		8549	IN	NS	name.nith.ac.in.
+nith.ac.in.		8549	IN	NS	name1.nith.ac.in.
+nith.ac.in.		8549	IN	NS	name2.nith.ac.in.
+;; Received 190 bytes from 117.251.114.194#53(name2.nith.ac.in) in 36 ms
+

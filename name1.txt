@@ -1,0 +1,95 @@
+
+; <<>> DiG 9.20.29-1-Debian <<>> @name1.nith.ac.in nith.ac.in axfr
+; (1 server found)
+;; global options: +cmd
+nith.ac.in.		8549	IN	SOA	name.nith.ac.in. akc.nith.ac.in. 2025110738 2800 3600 1604800 86400
+nith.ac.in.		8549	IN	TXT	"v=spf1 include:_spf.google.com ~all"
+nith.ac.in.		8549	IN	MX	1 ASPMX.L.GOOGLE.COM.
+nith.ac.in.		8549	IN	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
+nith.ac.in.		8549	IN	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
+nith.ac.in.		8549	IN	MX	10 ALT3.ASPMX.L.GOOGLE.COM.
+nith.ac.in.		8549	IN	MX	10 ALT4.ASPMX.L.GOOGLE.COM.
+nith.ac.in.		8549	IN	A	14.139.56.5
+nith.ac.in.		8549	IN	NS	name.nith.ac.in.
+nith.ac.in.		8549	IN	NS	name1.nith.ac.in.
+nith.ac.in.		8549	IN	NS	name2.nith.ac.in.
+nith.ac.in.		8549	IN	DNSKEY	256 3 7 AwEAActyuMZHyZqdbp++Kl3bjuOmRRxjEV46EWWYiBTbgms08GfHlc08 T+fTCdcJkaA3S/MNXCnI3WUg/ZZ1XOFHElw3Fo7++R9fFfz6uGNoL689 3s9IHJOHBZIqmYwZRWTwrhRjJrnARAp7sl+WC9V0mKDZcyASTKo9vSqN RMACugL6bhM9h1srZnVza11t51bB5ZNij5Pi6K83rFfwOZ5++bRVTEgZ A6tzm7cms2iJxG2z78lCXOvV8tctIIL1qZyqSLwxtvgX+dvdkCT2ZU3/ LrNtxR2c3RqydYjZDQ5We34c1wQpEpGREZe8O3eJG61GTfKEPLT1Q/Tx dBthb73pJcc=
+nith.ac.in.		8549	IN	DNSKEY	257 3 7 AwEAAb/g9IumVnVblcBWXKHzf1YJ8qhxSv9iOUgcwjWiIib2VRO9+leW 6fljrFeHqkK0NRE9eca5etH3HPdDbyO+cFFO82A5Q5FPmjAPQOt0+O/L 4DU00hRcB2WpEfubuE4HsItvhgB8x5SwTlaSR4rJfnZMhZ6jXwKg/ZwE 5IuPDPu0DuFiuRV+2na+OUee2irvPEZ8RG7cSPHx8BqpJgGx7vFqpT6l V7slZGUPUJH5V4eGkDLwA8Ji1go2b3NWUcjlCQfFjDTl5bruKskzEvgN JHn5tu+Iaj6micWl+lCqBw7z+3n+Ey36V3F2LPFtae6uGjHeqmxVIKau 8aLCtRuLMzKWHV3LDsOPmvtLQPQ07U0UeMYjC6cNaAotgDuxpi/sjSi4 aAE1dgbfdVVR87TH3fZmv9CLsyGanDW4hrs3PmFVIskc6KIPXaXT1x7r xBhwb8koCaHHtcMuU75/umzfWDYfEIJsMar4P3AdmxIcX3FlL2BLPx0n SsnECjCvbC5vL+g+bQEEgc/+tP8f4Y6FXaYw8sMyTD3gcMvDf9a8onk1 ksZvVSOB960MkuIlw45hYuigF2LYFiEZQE1LqS/UNJkdhkJWsImJc1hL H9Onl8EXi56bq9rFJGQGrqirlBkeLQI5po1qZddyoiD4Bk4+9v21USn7 qbNLXI7rF2dLU393
+default._bimi.nith.ac.in. 8549	IN	TXT	"v=BIMI1; l=https://nith.ac.in/logo.svg;"
+_dmarc.nith.ac.in.	8549	IN	TXT	"v=DMARC1;p=quarantine;rua=mailto:cc-admin@nith.ac.in"
+google._domainkey.nith.ac.in. 3600 IN	TXT	"v=DKIM1; k=rsa; p=" "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiYKi1m9RWu7QGNmyCb0jwQSE4xPuj/qyka" "UPdhozBhh1QTsQQCFFd+fdfZ8gX+dO3JGNl/11HHWPZDTnb9D8bobcl053xNvufhHSTw3E5JduOVyS" "KqZF6kga+MocDglSBSpZDsawsW96VsBZfZaZ6krORynNTLK7siZb16ij3XtgSbTPDyvX1ZgK/zJTnZ" "5q/ziK5a57yZpke6mB5PHvlBZGYwLC+UUERkJrUmNhiEQvWgoYFLoR/M9+FPpGH8iEaVRNtsxRE1YT" "nxBD++aIzAonuTj8AQSmqiqdvEy+ptwd20FGBJkZEkxoAtaZOeR4sTgryMraaV4Mt/gAAEdE+wIDAQ" "AB"
+_vercel.nith.ac.in.	8549	IN	TXT	"vc-domain-verify=shield.nith.ac.in,fda37c89656275a1cab5"
+academic.nith.ac.in.	8549	IN	A	14.139.56.15
+admissions.nith.ac.in.	8549	IN	CNAME	ghs.googlehosted.com.
+adserver.nith.ac.in.	8549	IN	A	14.139.56.22
+aidccsp24.nith.ac.in.	8549	IN	CNAME	spec-nith.github.io.
+alumni.nith.ac.in.	8549	IN	CNAME	hs.vaave.co.
+apar.nith.ac.in.	8549	IN	A	14.139.56.5
+appteam.nith.ac.in.	8549	IN	CNAME	app-team-website.vercel.app.
+cms.nith.ac.in.		8549	IN	A	14.139.56.28
+collect.nith.ac.in.	8549	IN	A	14.139.56.29
+complaints.nith.ac.in.	8549	IN	A	14.139.56.3
+dbserver.nith.ac.in.	8549	IN	A	14.139.56.10
+deployment.nith.ac.in.	8549	IN	A	14.139.56.17
+dev.nith.ac.in.		8549	IN	A	14.139.56.11
+development.nith.ac.in.	8549	IN	A	14.139.56.11
+ecell.nith.ac.in.	8549	IN	CNAME	ecellnith.netlify.app.
+electrothon.nith.ac.in.	8549	IN	CNAME	spec-nith.github.io.
+elsoc.nith.ac.in.	8549	IN	A	14.139.56.17
+eo.nith.ac.in.		8549	IN	A	14.139.56.28
+eoffice.nith.ac.in.	8549	IN	A	14.139.56.6
+esummit.nith.ac.in.	8549	IN	CNAME	esummit-2k26.vercel.app.
+exams.nith.ac.in.	8549	IN	A	14.139.56.3
+feather.nith.ac.in.	8549	IN	CNAME	ghs.googlehosted.com.
+festhillffair.nith.ac.in. 8549	IN	CNAME	4de7d8c1494eb157.vercel-dns-017.com.
+festnimbus.nith.ac.in.	8549	IN	CNAME	nimbus2k25-tan.vercel.app.
+gatepass.nith.ac.in.	8549	IN	A	14.139.56.17
+gdg.nith.ac.in.		8549	IN	A	14.139.56.17
+grades.nith.ac.in.	8549	IN	A	14.139.56.15
+hack.nith.ac.in.	8549	IN	CNAME	hack-5-0.vercel.app.
+hackonhills.nith.ac.in.	8549	IN	CNAME	hackonhills.com.
+hacksecure.nith.ac.in.	8549	IN	CNAME	hack-6-0.vercel.app.
+icgesi2026.nith.ac.in.	8549	IN	A	14.139.56.17
+idp.nith.ac.in.		8549	IN	A	14.139.56.13
+iric.nith.ac.in.	8549	IN	A	14.139.56.18
+iste.nith.ac.in.	8549	IN	A	14.139.56.17
+ldap.nith.ac.in.	8549	IN	A	14.139.56.30
+library.nith.ac.in.	8549	IN	A	14.139.56.14
+literacymission.nith.ac.in. 8549 IN	CNAME	literacy-mission.vercel.app.
+mathed2025.nith.ac.in.	8549	IN	CNAME	mathed-2025.vercel.app.
+mind2023.nith.ac.in.	8549	IN	A	14.139.56.28
+moodle.nith.ac.in.	8549	IN	A	14.139.56.16
+mun.nith.ac.in.		8549	IN	A	14.139.56.17
+name.nith.ac.in.	8549	IN	A	14.139.56.2
+name1.nith.ac.in.	8549	IN	A	14.139.56.3
+name2.nith.ac.in.	8549	IN	A	117.251.114.194
+ntr.nith.ac.in.		8549	IN	A	14.139.56.3
+pgadmissions.nith.ac.in. 8549	IN	A	14.139.56.16
+pgateway.nith.ac.in.	8549	IN	A	14.139.56.29
+portfolio.nith.ac.in.	8549	IN	A	14.139.56.21
+portfolios.nith.ac.in.	8549	IN	A	14.139.56.16
+prody.nith.ac.in.	8549	IN	A	14.139.56.17
+rec.nith.ac.in.		8549	IN	A	14.139.56.3
+recruitment.nith.ac.in.	8549	IN	A	14.139.56.11
+result.nith.ac.in.	8549	IN	A	14.139.56.19
+results.nith.ac.in.	8549	IN	A	14.139.56.19
+robosoc.nith.ac.in.	8549	IN	CNAME	41c27a39828c054f.vercel-dns-017.com.
+rttp2024.nith.ac.in.	8549	IN	A	14.139.56.17
+sec.nith.ac.in.		8549	IN	CNAME	csec-website.vercel.app.
+semreg.nith.ac.in.	8549	IN	A	14.139.56.11
+shield.nith.ac.in.	8549	IN	CNAME	shield-static-website.vercel.app.
+shikshamahakumbh.nith.ac.in. 8549 IN	A	187.127.184.57
+spec.nith.ac.in.	8549	IN	CNAME	spec-nith.github.io.
+students.nith.ac.in.	8549	IN	A	14.139.56.19
+supplementary.nith.ac.in. 8549	IN	A	14.139.56.16
+tempcse.nith.ac.in.	8549	IN	A	14.139.56.28
+tifac.nith.ac.in.	8549	IN	A	14.139.56.20
+tpo.nith.ac.in.		8549	IN	A	14.139.56.17
+web.nith.ac.in.		8549	IN	A	14.139.56.3
+www.nith.ac.in.		8549	IN	CNAME	nith.ac.in.
+nith.ac.in.		8549	IN	SOA	name.nith.ac.in. akc.nith.ac.in. 2025110738 2800 3600 1604800 86400
+;; Query time: 60 msec
+;; SERVER: 14.139.56.3#53(name1.nith.ac.in) (TCP)
+;; WHEN: Mon Nov 02 02:35:31 IST 2026
+;; XFR size: 86 records (messages 1, bytes 3690)
+
